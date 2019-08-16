@@ -2,19 +2,16 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
-<h2>What Can JavaScript Do?</h2>
+<h2>Temperature converter</h2>
 
-<p>JavaScript can change HTML attribute values.</p>
+<button onclick='toCelsius()'>Convert to Celsius</button>
+<button onclick='toFahrenheit()'>Convert to Faherenheit</button>
 
-<p id="demo">In this case JavaScript changes the value of the src (source) attribute of an image.</p>
-<button style="display: block;"  onclick="changeFontSize(50)">Change font size</button>
-
-<button onclick="onBulb()"> Turn on</button>
-<img id="myImage" src="imgs/pic_bulboff.gif">
-<button onclick="offBulb()">Turn off</button>
+<p id='result'></p>
 
 <script type="text/javascript" src="js/js.js"></script>
 </body>
