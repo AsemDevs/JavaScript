@@ -4,9 +4,9 @@ function changeFontSize(value){
 
 
 function onBulb(){
-	document.getElementById('myImage').src='pic_bulbon.gif' 
+	document.getElementById('myImage').src='./imgs/pic_bulbon.gif' 
 }
 
 function offBulb(){
-	document.getElementById('myImage').src='pic_bulboff.gif' 
+	document.getElementById('myImage').src='./imgs/pic_bulboff.gif' 
 }
